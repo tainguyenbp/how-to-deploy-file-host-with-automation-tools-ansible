@@ -1,0 +1,4 @@
+- name: Copy file hosts new.
+  template:
+    src=hosts
+    dest=/etc/hosts
